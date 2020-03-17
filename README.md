@@ -28,7 +28,7 @@ Database will be create automaticly and table **users** will be filled
 **4. Build and run app**
 
 ```bash
-gradle bootJar
+gradle build
 gradle bootRun
 ```
 
