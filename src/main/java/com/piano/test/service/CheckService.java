@@ -25,7 +25,7 @@ public class CheckService {
                 .orElseThrow(UserNotFoundException::new);
 
         if (entrance && (user.getEntrance() || keyId % roomId != 0)) {
-            log.warn("Пользователь: " + keyId + " попытался войти в комнату: " + roomId);
+            log.warn("Пользователь - " + keyId + " попытался войти в комнату - " + roomId);
             throw new UnsupportedUserOperationException(ErrorMessage.UNSUPPORTED_OPERATION);
         }
 
