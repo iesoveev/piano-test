@@ -1,0 +1,10 @@
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
+insert into users (entrance) value (0);
