@@ -1,0 +1,18 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<configuration>
+    <appenders>
+        <console name="Console" target="SYSTEM_OUT">
+            <patternlayout pattern="%style{%d{ISO8601}}{black} %highlight{%-5level }[%style{%t}{bright,blue}] %style{%C{1.}}{bright,yellow}: %msg%n%throwable">
+            </patternlayout></console>
+    </appenders>
+
+    <loggers>
+        <root level="info">
+            <appenderref ref="Console">
+            </appenderref>
+        </root>
+
+        <logger name="log" level="info"/>
+    </loggers>
+
+</configuration>
